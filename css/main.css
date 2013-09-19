@@ -18,7 +18,7 @@ body {
   font-size: small;
   font-weight: 400;
   text-align: center;
-  color: #222;
+  color: #2c3e50;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -154,7 +154,7 @@ ul.posts span {
   /*border: 1px solid #777;*/
   /*background-color: #eef;*/
   padding: 0 .2em;
-  color: #2ecc71;
+  color: #34495e;
 }
 
 .post pre code {
