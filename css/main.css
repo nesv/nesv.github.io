@@ -27,9 +27,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: rgb(73, 175, 205); }
-a:hover   { -mox-opacity: 0.5; -webkit-opacity: 0.5; }
-a:visited { color: rgb(63, 165, 195); }
+a         { color: rgb(73, 175, 205); text-decoration: none; }
+a:hover   { -mox-opacity: 0.5; -webkit-opacity: 0.5; text-decoration: none; }
+a:visited { color: rgb(63, 165, 195); text-decoration: none; }
 
 /*****************************************************************************/
 /*
@@ -60,7 +60,7 @@ ul.posts span {
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 60em;
+  width: 50em;
   margin: 3em auto 2em;
   line-height: 1.5em;
 }
@@ -83,7 +83,7 @@ ul.posts span {
 }
 
 .site .header h1.title a:hover {
-  color: #000;
+  opacity: 0.5;
 }
 
 .site .header a.extra {
@@ -100,8 +100,9 @@ ul.posts span {
 }
 
 .site .footer {
+  font-weight: 300;
   font-size: 80%;
-  color: #666;
+  color: #95a5a6;
   border-top: 4px solid #eee;
   margin-top: 2em;
   overflow: hidden;
@@ -127,7 +128,7 @@ ul.posts span {
 }
 
 .site h2 {
-  color: rgb(210, 58, 44);
+  color: #e74c3c;
   font-weight: 300;
   font-size: 2em;
 }
@@ -153,7 +154,7 @@ ul.posts span {
   /*border: 1px solid #777;*/
   /*background-color: #eef;*/
   padding: 0 .2em;
-  color: rgb(91, 183, 91);
+  color: #2ecc71;
 }
 
 .post pre code {
@@ -178,11 +179,9 @@ ul.posts span {
   padding: 0.2em 1.5em 0.2em 1.5em;
 }
 
-.post blockquote p strong {
-  display: block;
-  font-weight: 600;
-}
-
-.post blockquote p a {
-
+.post h3 {
+  color: #e74c3c;
+  font-weight: 300;
+  font-size: 1.4em;
+  margin-top: 1em;
 }
