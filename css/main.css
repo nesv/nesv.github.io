@@ -13,10 +13,12 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #FFF;
-  font: 13.34px Helvetica, Arial, sans-serif;
+  background-color: #444;
+  font: 13.34px "Open Sans", Helvetica, Arial, sans-serif;
   font-size: small;
+  font-weight: 400;
   text-align: center;
+  color: #ddd;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -25,9 +27,9 @@ h1, h2, h3, h4, h5, h6 {
 h1 { margin-bottom: 1em; }
 p { margin: 1em 0; }
 
-a         { color: #00a; }
-a:hover   { color: #000; }
-a:visited { color: #a0a; }
+a         { color: rgb(73, 175, 205); }
+a:hover   { -mox-opacity: 0.5; -webkit-opacity: 0.5; }
+a:visited { color: rgb(63, 165, 195); }
 
 /*****************************************************************************/
 /*
@@ -58,7 +60,7 @@ ul.posts span {
 .site {
   font-size: 115%;
   text-align: justify;
-  width: 42em;
+  width: 60em;
   margin: 3em auto 2em;
   line-height: 1.5em;
 }
@@ -74,7 +76,10 @@ ul.posts span {
 }
 
 .site .header h1.title a {
-  color: #a00;
+  color: rgb(48, 133, 214);
+  font-family: "Open Sans", sans-serif;
+  font-weight: 300;
+  font-size: 4em;
 }
 
 .site .header h1.title a:hover {
@@ -121,6 +126,10 @@ ul.posts span {
   border: 0;
 }
 
+.site h2 {
+  color: rgb(210, 58, 44);
+}
+
 /*****************************************************************************/
 /*
 /* Posts
@@ -139,9 +148,10 @@ ul.posts span {
 }
 
 .post code {
-  border: 1px solid #ddd;
-  background-color: #eef;
+  /*border: 1px solid #777;*/
+  /*background-color: #eef;*/
   padding: 0 .2em;
+  color: rgb(91, 183, 91);
 }
 
 .post pre code {
@@ -157,4 +167,18 @@ ul.posts span {
 
 .post pre.terminal code {
   background-color: #333;
+}
+
+/* custom */
+.post blockquote {
+  background-color: rgba(65, 91, 118, 0.3);
+  border-radius: 4px;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
+  font-weight: 300;
+}
+
+.post blockquote p strong {
+  color: rgba(72, 201, 176, 1.0);
+  font-weight: 600;
 }
