@@ -13,12 +13,12 @@
 html, body { height: 100%; }
 
 body {
-  background-color: #444;
+  background-color: #fff;
   font: 13.34px "Open Sans", Helvetica, Arial, sans-serif;
   font-size: small;
   font-weight: 400;
   text-align: center;
-  color: #ddd;
+  color: #222;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -128,6 +128,8 @@ ul.posts span {
 
 .site h2 {
   color: rgb(210, 58, 44);
+  font-weight: 300;
+  font-size: 2em;
 }
 
 /*****************************************************************************/
@@ -171,14 +173,16 @@ ul.posts span {
 
 /* custom */
 .post blockquote {
-  background-color: rgba(65, 91, 118, 0.3);
+  background-color: #ecf0f1;
   border-radius: 4px;
-  padding-left: 1.5em;
-  padding-right: 1.5em;
-  font-weight: 300;
+  padding: 0.2em 1.5em 0.2em 1.5em;
 }
 
 .post blockquote p strong {
-  color: rgba(72, 201, 176, 1.0);
+  display: block;
   font-weight: 600;
+}
+
+.post blockquote p a {
+
 }
