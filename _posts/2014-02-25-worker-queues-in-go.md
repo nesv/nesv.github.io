@@ -18,7 +18,7 @@ recommend watching the following videos:
   good video to start with, as it imparts the theory behind using concurrency
   to write applications that execute tasks in parallel. This is definitely
   my favourite video in the bunch.
-* [Go Concurrency Patters](http://www.youtube.com/watch?v=f6kdp27TYZs) (again,
+* [Go Concurrency Patterns](http://www.youtube.com/watch?v=f6kdp27TYZs) (again,
   by Rob Pike) gives more concrete examples of how to employ various
   concurrency...erm...patterns, in Go. It also provides a comparison on how
   Go's concurrency model differs from those in other languages, like Erlang.
