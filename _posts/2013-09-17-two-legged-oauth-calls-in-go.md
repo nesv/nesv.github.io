@@ -82,7 +82,7 @@ const (
 )
 
 func main() {
-    consumer := oauth.NewConsumer(Key, Secret, &oauth.ServiceProvider{})
+    consumer := oauth.NewConsumer(Key, Secret, oauth.ServiceProvider{})
     accessToken := &oauth.AccessToken{}
     response, err := consumer.Get("http://some/remote/endpoint", nil, accessToken)
     fmt.Println("Response:", response.StatusCode, response.Status)
